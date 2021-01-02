@@ -1,0 +1,26 @@
+h1 {
+    border: 5px solid black;
+    margin: 10px;
+    padding: 50px;
+}
+.blue-text {
+    color: blue;
+}
+#third_heading {
+    color: green;
+}
+.colored-background {
+    background-color: purple;
+}
+p.colored-background {
+    background-color: yellow;
+}
+.blue-text, #third_heading {
+    color: red;
+}
+#third_heading {
+    padding: 5px 20px;
+}
+p {
+    margin: 5px 20px 50px 100px;
+}

@@ -1,0 +1,36 @@
+#wrapper {
+    margin: auto;
+    text-align: center;
+}
+h1, h3 {
+    color: #4527A0;
+}
+h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+form {
+    display: inline-block;
+    padding: 30px;
+}
+.form-field-container {
+    margin-bottom: 20px;
+}
+label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    padding-right: 10px;
+}
+input, textarea {
+    width: 300px;
+    padding: 5px;
+}
+textarea {
+    height: 200px;
+    resize: none;
+    overflow: auto;
+}
+.submit-btn {
+    text-align: right;
+}

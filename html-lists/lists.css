@@ -1,0 +1,29 @@
+body, header ul {
+    margin: 0;
+}
+header {
+    background-color: #4A148C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+header ul {
+    list-style-type: none;
+}
+header li {
+    display: inline;
+    padding-right: 30px;
+}
+#wrapper {
+    margin: 20px;
+}
+div ul {
+    list-style-image: url("check-mark-small.png");
+}
+div ul li {
+    margin-bottom: 5px;
+}
+ol {
+    list-style-type: upper-latin;
+}

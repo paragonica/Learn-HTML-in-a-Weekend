@@ -1,0 +1,42 @@
+body {
+    padding: 20px;
+}
+h3 {
+    color: rgb(0, 105, 92);
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: #455A64;
+}
+#bronze_link,
+#silver_link,
+#gold_link {
+    text-align: left;
+}
+#bronze_link a {
+    color: #5D4037;
+}
+#silver_link a {
+    color: #546E7A;
+}
+#gold_link a {
+    color: #FF8F00;
+}
+#bronze_title {
+    color: #5D4037;
+}
+#silver_title {
+    color: #546E7A;
+}
+#gold_title {
+    color: #FF8F00;
+}
+#home_link {
+    color: #455A64;
+}
+a {
+    text-decoration: none;
+}

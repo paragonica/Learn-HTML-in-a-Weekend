@@ -1,0 +1,33 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: 200px, 1fr, 1fr;
+    grid-auto-rows: 200px;
+    width: 50%;
+    height: 600px;
+    border: 1px solid black;
+}
+#wrapper div {
+    padding: 20px;
+}
+#one {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+#two {
+    background-color: green;
+}
+#three {
+    background-color: blue;
+}
+#four {
+    background-color: orange;
+}
+#five {
+    background-color: yellow;
+}
+#six {
+    background-color: purple;
+}

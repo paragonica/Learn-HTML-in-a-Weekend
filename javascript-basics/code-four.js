@@ -1,0 +1,13 @@
+var students = ["Bob", "Mary", "Ellen", "Sam", "Tim"];
+console.log(students);
+console.log(students[0]);
+console.log(students[9]);
+console.log(students[2]);
+console.log(students.length);
+console.log(students[students.length - 1]);
+students.push("Chris");
+console.log(students);
+var lastItem = students.pop();
+console.log(lastItem);
+console.log(students);
+console.log(typeof students);

@@ -1,0 +1,27 @@
+body, h3 {
+    margin: 0;
+}
+
+header {
+    background-color: #03A9F4;
+    padding: 20px;
+}
+
+h3 {
+    color: white;
+    display: inline;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#link_container {
+    float: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}

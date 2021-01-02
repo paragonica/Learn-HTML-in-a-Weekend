@@ -1,0 +1,60 @@
+body {
+    padding: 20px;
+}
+#wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+#wrapper > div:first-of-type {
+    margin-right: 30px;
+}
+.shadow-pane {
+    width: 300px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+.vacation {
+    display: inline-block;
+    border: 10px ridge #0D4701;
+    background-color: #1976D2;
+    padding: 20px;
+}
+.vacation img {
+    width: 300px;
+}
+.vacation p {
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 10px;
+}
+.fuji-image {
+    width: 300px;
+}
+.accordion {
+    display: inline-block;
+    border: 1px solid #888;
+    background-color: #EEE;
+    width: 320px;
+}
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-bottom: 1px solid #888;
+}
+.accordion-header-text p {
+    margin: 0;
+    padding: 0;
+}
+.accordion-header img {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+.accordion-body {
+    padding: 10px;
+}

@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #3949AB;
+}
+header {
+    background-color: #1A237E;
+    color: #FFF;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+article {
+    width: 50%;
+    margin: auto;
+}
+.section-container {
+    display: flex;
+    margin-bottom: 60px;
+}
+aside {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: inset 5px 0 5px -5px #3949AB;
+    font-style: italic;
+}
+section {
+    display: inline-block;
+    margin-left: 40px;
+}
